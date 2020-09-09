@@ -15,12 +15,6 @@ class Dog
           puts pup.name
         end
       end
-      def Dog.save(name)
-          @@all << name
-          @@all
-         
-        end
-      end
       
 
       def Dog.clear_all
