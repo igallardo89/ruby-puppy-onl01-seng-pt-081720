@@ -15,9 +15,10 @@ class Dog
           puts pup.name
         end
       end
-      def Dog.save
+      def Dog.save(name)
+          @@all << name
           @@all
-          @all
+         
         end
       end
       
