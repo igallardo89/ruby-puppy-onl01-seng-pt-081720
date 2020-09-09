@@ -15,6 +15,12 @@ class Dog
           puts pup.name
         end
       end
+      def self.save
+        @@dog.each do |doggy|
+          @@all << doggy
+          @all
+        end
+      end
       
 
       def Dog.clear_all
