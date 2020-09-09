@@ -13,6 +13,7 @@ class Dog
       def self.print_all
         @@all.each do |pup|
           print pup.name
+        end
 
       def Dog.clear_all
         @@all.clear
