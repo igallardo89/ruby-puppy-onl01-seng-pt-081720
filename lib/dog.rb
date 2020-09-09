@@ -16,6 +16,11 @@ class Dog
         end
       end
       
+      def save
+        
+        
+    end 
+      
 
       def Dog.clear_all
         @@all.clear
