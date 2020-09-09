@@ -14,6 +14,7 @@ class Dog
         @@all.each do |pup|
           print pup.name
         end
+      end
 
       def Dog.clear_all
         @@all.clear
